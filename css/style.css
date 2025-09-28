@@ -1,0 +1,395 @@
+/* EDIÇÕES GLOBAIS */
+body {
+   background-color: white;
+   margin: 0;
+   padding: 0;
+}
+/* movimento da rolagem suave do scroll */
+html {
+  scroll-padding-top: 0px;
+}
+
+/* ESTILIZAÇÃO DO CABEÇALHO */
+header {
+    position: fixed;
+    top: 0;           
+    left: 0;          
+    width: 100%;      
+    z-index: 1000;  
+    background-color: rgb(51, 0, 105);
+    color: white;
+    padding: 0px;
+    text-align: center;
+    display: flex;
+    font-size: 5px;
+}
+/* Cor do botão home no menu */
+.home {
+    color: rgb(210, 182, 0);
+}
+
+/* EDIÇÃO DOS CONTAINERS */
+/* Padrão: container + seção em que se encontra */
+.containersobrenos {
+    display: flex; 
+  gap: 20px; 
+  justify-content: space-between; 
+  align-items: flex-start; 
+  margin: 20px 0;
+}
+.containersobrenos .bloco {
+  flex: 1; 
+  background: #f9f9f9; 
+  padding: 15px;
+  border-radius: 10px;
+}
+.containerModalidades {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+.containerDep {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 50px 250px 0px 250px;
+    padding-bottom: 100px;
+}
+.containerTabela {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+.containerBenef {
+    display: block;
+    align-items: center;
+    background: rgb(69, 0, 142);
+    padding: 75px;
+}
+.containerMent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 90px;
+    margin: 50px 100px 0px 100px;
+    padding-bottom: 100px;       
+}
+
+/* TÍTULOS E SUBTÍTULOS */
+/* Padrão: h1/h2 + seção em qe se encontra */
+h1 {
+    font-family: "Montserrat", serif;
+    margin-left: 15px;
+    font-size: 35px;
+    margin-right: 60px;
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+h1:hover {
+    transform: scale(1.1);
+}
+.h2sobrenos {
+    font-family: "Montserrat", serif;
+    color: rgb(69, 0, 142);
+    display: flex;
+    text-align: center;
+    gap: 260px;
+    font-size: 23px;
+    margin-left: 300px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+}
+#h2benef {
+    font-family: "Montserrat", serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 35px;
+}
+#h2mod {
+    font-family: "Montserrat", serif;
+    color:  rgb(51, 0, 105);
+    text-align: center;
+    font-size: 35px;
+    margin-top: 30px;
+}
+#h2dep {
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 35px;
+}
+#h2ment {
+    font-family: "Montserrat", serif;
+    color:  rgb(51, 0, 105);
+    text-align: center;
+    font-size: 35px;
+    margin-top: 0px;
+}
+/* SEÇÕES */
+.secaoum {
+    margin-top: 88px;
+    background: linear-gradient( rgb(51, 0, 105), rgb(140, 32, 255));
+    clip-path: ellipse(100% 90% at 50% 0%);
+}
+#objetivo {
+    background: linear-gradient(rgb(69, 0, 142),rgb(69, 0, 142), rgb(246, 237, 255));
+    color: rgb(69, 0, 142);
+    padding: 30px;
+    margin-bottom: 80px;
+    margin-top: 0;
+}
+#modalidades {
+    background: rgb(255, 255, 255);
+    color: white;
+    padding: 30px;
+}
+#mentoria {
+    background: linear-gradient(rgb(255, 255, 255));
+    color: rgb(69, 0, 142);
+    padding: 30px;
+}
+/* MENU E SEÇÃO DA MENTORIA */
+
+.menu {
+    display: inline-block;
+    font-family: "Montserrat", serif;
+    margin-top: 30px;
+    padding: 0 15px;
+    font-size: 14px;
+    transition: all 0.2s ease;
+}
+.menu:hover {
+    transform: translateY(-5px);
+}
+
+.mentoria {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border:  rgb(255, 255, 255);
+    border-radius: 20px;
+    color: rgb(81, 0, 167);
+    margin-right: 45px;
+    margin-left: 20px;
+    transition: background-color 0.5s ease;
+}
+.mentoria:hover {
+    background-color: rgb(165, 20, 255);
+}
+.mentoria, a{
+    transition: color 0.3s ease;
+}
+.mentoria:hover {
+    color: rgb(255, 255, 255);
+}
+
+/* PARÁGRAFOS E TEXTOS */
+/* Padrão: p (paragrafo) + seção em que se encontra */
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transition: color 0.2s ease;
+}
+a:hover {
+    color: rgb(210, 182, 0);
+}
+#depoimentos {
+   background: rgb(51, 0, 105);
+}
+#psobrenos {
+    font-family: "Montserrat", serif;
+    font-size: 19px;
+    color: rgb(69, 0, 142);
+    margin: 0 40px 0 40px;
+    padding: 0;
+    text-align: justify;
+    margin-bottom: 80px;
+
+}
+#pbeneficios {
+    font-family: "Montserrat", serif;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-bottom: 50px;
+    color: white;
+}
+.pInfoMent {
+    font-family: "Montserrat", serif;
+    text-align: center;
+    text-align: justify;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-right: 5px;
+    color: rgb(51, 0, 105);
+    margin-bottom: 50px;
+}
+
+.pMod {
+    font-family: "Montserrat", serif;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-right: 5px;
+    color: rgb(51, 0, 105);
+    margin-bottom: 50px;
+}
+#pModInt {
+    text-align: center;
+    font-size: 18px;
+    font-family: "Montserrat", serif;
+    margin-bottom: 0;
+}
+.pDepoimento {
+    font-family: "Montserrat", serif;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-right: 5px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+}
+.pMent {
+    font-family: "Montserrat", serif;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-bottom: 50px;
+}
+
+/* IMAGENS */
+/* Logo */
+#logomarca {
+    width: 3rem;
+   order: 10px solid white; 
+    border-radius: 50px;
+    height: auto;
+    margin-right: 0;
+    margin-left: 70px;
+    margin-top: 5px;
+    transition: all 0.2s ease;
+}
+#logomarca:hover {
+    transform: scale(1.1);
+}
+/* Imagem grande da seção numero um */
+#imagemGrande {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width: 65rem;
+    border-radius: 60px;
+}
+/* Imagem do sobre nós */
+#imagemSobrenos {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width: 25rem;
+    height: auto;
+    margin-right: 5px;
+    margin-left: 100px;
+}
+/* Imagem da seção nosso objetivo */
+#imagemNossoobjetivo {
+    text-align: center;
+    display: block;
+    width: 25rem;
+    height: auto;
+    margin-right: 50px;
+}
+/* Imagem da seção das modalidades */
+#imgMod {
+    display: inline-flex;
+    width: 20rem;
+    margin: 50px 20px 50px 20px;
+    margin-top: 0;
+    text-align: center;
+    border-radius: 5px;
+}
+/* Imagem dos depoimentos */
+#imgDepoimento {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width: 25rem;
+    height: auto;
+    margin-left: 30px;
+    margin-right: 0;
+    border-radius: 12px;
+    border: 2px solid white;
+}
+/* Imagem do ebook e mentoria */
+#posterMentum {
+    width: 35rem;
+    height: auto;
+    display: flex;
+}
+/* Imagem da seção dos beneficios */
+#imgBenef {
+    width: 62rem;
+    height: auto;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    margin-top: 10px;
+    border: 2px solid white;
+    border-radius: 30px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Imagem das redes sociais*/
+#redesSociais {
+    width: 2rem;
+    border-radius: 40px;
+    margin-left: 40px;
+    margin-right: 0;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+#redesSociais:hover {
+    transform: scale(1.1);
+}
+ /* BOTÕES */
+ /* Botão da mentoria */
+ #botaoCad {
+    font-family: "Montserrat", serif;
+    color: white;
+    background: linear-gradient(90deg, rgb(68, 0, 142), rgb(106, 0, 219));
+    padding: 28px;
+    font-size: 30px;
+    border: 5px solid rgb(84, 0, 173);
+    border-radius: 30px;
+    
+ }
+ /* Botão do cadastro */
+ .botaoCad {
+    text-align: center;
+    margin-top: 75px;
+    animation: bounce 2s infinite;
+    margin-bottom: 100px;
+}
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-15px); }
+}
+
+/* RODAPÉ */
+.rodape {
+    color: white;
+  background: rgb(51, 0, 105);
+  text-align: center;
+  padding: 25px;
+  font-size: 19px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
